@@ -642,16 +642,20 @@ min-height:calc(100vh - 62px);
 
 
 
-
+578,768,992,1170
 
 @media screen and (min-width: 768px) { 
   .hero {
     background: linear-gradient(rgba(47, 50, 51, 0.7), rgba(0, 0, 0, 0.7)),
     url("../images/arnold-francisca-f77Bh3inUpE-unsplash.jpg") center/cover no-repeat;
+
   }
 }
 
 
+
+@media only screen and (max-width: 768px){
+  /* below 768 */
 .hero {
   min-height: 100vh;
   max-height: calc(100vh - 62px);
@@ -662,27 +666,5 @@ min-height:calc(100vh - 62px);
   background: linear-gradient(rgba(47, 50, 51, 0.7), rgba(0, 0, 0, 0.7)),
   url("../images/arnold-francisca-f77Bh3inUpE-unsplash.jpg") center/cover no-repeat;
 }
-
-
-/* .hero-banner {
-  color: var(--mainWhite);
-  padding: 0 2rem;
-} */
-
-
-/* .hero-title {
-  text-transform: uppercase;
-  margin-bottom: 2rem;
-  letter-spacing: 0.4rem;
-} */
-
-
-/* .hero-text {
-  width: 85%;
-  margin: 0 auto;
-  margin-bottom: 2rem;
-  letter-spacing: var(--mainSpacing);
-  line-height: 2;
-  font-weight: 400;
-} */
+}
 
