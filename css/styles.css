@@ -651,7 +651,7 @@ min-height:calc(100vh - 62px);
     background: linear-gradient(rgba(47, 50, 51, 0.7), rgba(0, 0, 0, 0.7)),
     url("../images/arnold-francisca-f77Bh3inUpE-unsplash.jpg") center/cover no-repeat;
     max-height: fit-content;
-    max-width: 20vw;
+    max-width: 100vw;
   }
 }
   /* .hero-title {
