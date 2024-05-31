@@ -652,8 +652,6 @@ min-height:calc(100vh - 62px);
 }
 
 
-
-
 .hero {
   min-height: 100vh;
   max-height: calc(100vh - 62px);
