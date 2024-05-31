@@ -649,7 +649,8 @@ min-height:calc(100vh - 62px);
   .hero {
     background: linear-gradient(rgba(47, 50, 51, 0.7), rgba(0, 0, 0, 0.7)),
     url("../images/arnold-francisca-f77Bh3inUpE-unsplash.jpg") center/cover no-repeat;
-
+    min-height: 100vh;
+    min-width: fit-content;
   }
 }
 
@@ -658,7 +659,7 @@ min-height:calc(100vh - 62px);
 @media only screen and (max-width: 768px){
   /* below 768 */
 .hero {
-  min-height: 100vh;
+  /* max-height: 100vh; */
   max-height: calc(100vh - 62px);
   display: flex;
   justify-content: center;
