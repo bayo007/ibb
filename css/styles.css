@@ -645,28 +645,18 @@ min-height:calc(100vh - 62px);
 
 
 @media screen and (min-width: 768px) { 
-  /* i.e 768 or more */ 
-  /* 576,768,992,1170 */
   .hero {
     background: linear-gradient(rgba(47, 50, 51, 0.7), rgba(0, 0, 0, 0.7)),
     url("../images/arnold-francisca-f77Bh3inUpE-unsplash.jpg") center/cover no-repeat;
-    max-height: fit-content;
-    max-width: fit-content;
   }
 }
-  /* .hero-title {
-    font-size: 4.5rem;
-  }
-  .hero-text {
-    width: 70%;
-  } */
+
 
 
 
 .hero {
   min-height: 100vh;
-  /* max-height: calc(100vh - 62px); */
-  /* background: var(--primaryColor); */
+  max-height: calc(100vh - 62px);
   display: flex;
   justify-content: center;
   text-align: center;
