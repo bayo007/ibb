@@ -642,9 +642,10 @@ min-height:calc(100vh - 62px);
 
 
 
-578,768,992,1170
+/* 578,768,992,1170 */
 
 @media screen and (min-width: 768px) { 
+  /* above 768 */
   .hero {
     background: linear-gradient(rgba(47, 50, 51, 0.7), rgba(0, 0, 0, 0.7)),
     url("../images/arnold-francisca-f77Bh3inUpE-unsplash.jpg") center/cover no-repeat;
